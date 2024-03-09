@@ -1,7 +1,7 @@
 version: '1.0'
 services:
   frontend-dev:
-    container_name: inkathon-frontend-dev
+    container_name: blockchat-frontend-dev
     build:
       context: .
       dockerfile: Dockerfile.frontend
